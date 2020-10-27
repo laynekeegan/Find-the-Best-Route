@@ -1,7 +1,7 @@
 import random
 
 N = 5
-loft = [(random.randint(0, 10), random.randint(0, 10) for x in range(N))]
+loft = [(random.randint(0, 10), random.randint(0, 10)) for x in range(N)]
 for item in loft:
     print(item)
 
